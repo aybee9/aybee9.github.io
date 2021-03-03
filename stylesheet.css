@@ -1,0 +1,46 @@
+ /* . for class */
+/* # for id  */
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav {
+    color: black;
+    text-emphasis: bold;
+    font-size: 50px;
+}
+
+section {
+    background-color:lightsteelblue;
+}
+
+/* index */
+.indexc {
+    background-color: lightcoral;
+}
+
+/* data */
+.data-color {
+    background-color:lightyellow;
+}
+
+/* city_table */
+.city-table {
+    color:white;
+}
+
+/* comparison */
+.comparison {
+    background-color: lightblue;
+}
+
+
+/* Different size screens */
+@media (max-width: 600px) {
+    .box-1 {
+        background: pink;
+    }
+}
+
